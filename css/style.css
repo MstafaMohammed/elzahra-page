@@ -1,0 +1,63 @@
+/* start global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #121213;
+    --border: 3px solid #19c8fa;
+}
+body
+{
+    font-family: 'Cairo', sans-serif;
+    height: 100vh;
+    background-image: url('../image/background.jpg');
+    direction: rtl;
+    background-size: cover;
+    max-width: 100%;
+}
+/* end global */
+
+.main-page .overlay
+{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 170%;
+    top: 0%;
+    background: rgb(0 0 0 / 50%);
+}
+.text
+{
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    padding: 40px;
+    border-radius: 15px;
+    border: var(--border);
+    margin-top: 60px;
+    position: relative;
+}
+
+.main-page .text .image img
+{
+    width: 100px;
+    border-radius: 55%;
+    z-index: 1;
+    position: absolute;
+    left: 2%;
+    top: -4%;
+}
+.main-page .text h2
+{
+    font-weight: 700;
+    font-size: 25px;
+}
+.main-page .text li
+{
+    line-height: 3;
+    font-size: 20px;
+    font-weight: 500;
+}
